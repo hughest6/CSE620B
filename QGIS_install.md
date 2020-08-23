@@ -15,3 +15,7 @@ Overpass-turbo hosts vector data in an easy to access environment [overpass-turb
 With both raster and vector information downloaded, QGIS can now be used to import these files and work further with them. After creating a new file, the Data Manager can be opened to import the different files needed for this project. This import tool can open many files at once which is important since data for selected areas could be tiled across multiple files. As an example, this project will use 6 different EarthExplorer files that are able to be tiled together. The EarthExplorer files will be opened under the raster data set menu, while the overpass-turbo file will be opened as a vector source. This is as simple as going to the raster and vector menus, and selecting the downloaded files. With this step complete, the following results are shown.
 
 ![](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS%20Screenshot.PNG)
+
+To see how the EarthExplorer files are tiled, the indvidiual layers can be turned on and off on the left side of the screen. The following image results after turning of two of the layers from the panel.
+
+![](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS_screenshot2.PNG)
