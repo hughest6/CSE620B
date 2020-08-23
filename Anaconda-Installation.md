@@ -29,4 +29,7 @@ Now that JupyterLab is up and running, it can be used to install the remainder o
 conda install scipy ipython matplotlib jupyterlab scikit-learn scikit-image opencv rasterio shapely fiona ipykernel pandas nodejs
 ```
 ![](https://github.com/hughest6/CSE620B/blob/Anaconda-Installation/jupyterlab%20package%20installation.PNG)
+
 ## Package Check
+With all packages imported, a python kernel can be opened which will be able to test to insure the packages are operating correctly. This can be done by opening a new notebook from the file menu of JupyterLab. Within this notebook, python code can be impletemented and tested. The following image shows each package being imported as well as a matplotlib plot.
+![](https://github.com/hughest6/CSE620B/blob/Anaconda-Installation/import_packages.PNG)
