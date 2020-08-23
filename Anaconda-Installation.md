@@ -14,7 +14,6 @@ With the environment now created and activated, software packages can be install
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
-conda install <package-name>
 ```
 
 ## Install JupyterLab
@@ -25,5 +24,9 @@ jupyter lab
 ```
 
 ## Import Packages
-
+Now that JupyterLab is up and running, it can be used to install the remainder of the required packages along with insuring they import correctly.  First, the packages are imported
+```
+conda install scipy ipython matplotlib jupyterlab scikit-learn scikit-image opencv rasterio shapely fiona ipykernel pandas nodejs
+```
+![](https://github.com/hughest6/CSE620B/blob/Anaconda-Installation/jupyterlab%20package%20installation.PNG)
 ## Package Check
