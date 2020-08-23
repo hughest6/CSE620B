@@ -1,38 +1,11 @@
-## Welcome to GitHub Pages
+# QGIS Installation
+QGIS is a powerful geospatial data processing software that is open source and relatively easy to use.  More information can be found at [QGIS](https://qgis.org/en/site/). Installation is quick with a download link being provided on the main page of the QGIS website. After installation, a project can be created that will be used for the demo at the end of this page. Data sets will be generated from both EarthExplorer and overpass-turbo. These sources contain a vast amount of geospatial data sets that can be accessed for free.
 
-You can use the [editor on GitHub](https://github.com/hughest6/CSE620B/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## EarthExplorer
+USGS EarthExplorer is an online repository of geospatial data sets. These sets range from topology and weather patterns, to high quality aerial imagery. Data for the example project below will be captured from the NAIP or National Agriculture Imagery Program. This data is for use in agriculture settings but it also contains high resolution imagery which will be a great starting point for an example project. A free account can be created at [EarthExplorer](https://earthexplorer.usgs.gov/). The panel on the left side of the screen allows the user to query various data sets and see the results. First NAIP is selected, and then result option is selected. Under show results controls, the option to show all footprints can be selected to show how individual data files are tiled over the selected area. These files can then be downloaded and used in QGIS
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/earth%20explorer%20export.PNG)
 
-### Markdown
+## overpass-turbo
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS%20Screenshot.PNG)
-```
-![Image](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS%20Screenshot.PNG)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hughest6/CSE620B/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
+## Example Project
