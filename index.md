@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS%20Screenshot.PNG)
 ```
-
+![Image](https://github.com/hughest6/CSE620B/blob/QGIS-Installation/QGIS%20Screenshot.PNG)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
